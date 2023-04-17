@@ -20,6 +20,7 @@ int main(void)
       a = b;
       b = c;
     }
+    cout << "\n";
   }
   
   return 0;
