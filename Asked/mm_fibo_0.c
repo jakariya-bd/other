@@ -14,13 +14,13 @@ int main(void)
   
   for(i=1; i <= row; i++){
     for(k=1; k <= i; k++){
-      cout << a << " ";
+      printf("%d ", a);
       
       c = a + b;
       a = b;
       b = c;
     }
-    cout << "\n";
+    printf("\n");
   }
   
   return 0;
